@@ -11,96 +11,98 @@
   <title>Frontend Mentor | Testimonials-grid-section</title>
 </head>
 <body>
-  <section class="bg-white py-8">
-    <div class="container mx-auto p-4 md:p-12 lg:p-20 grid grid-cols-1 md:grid-cols-4 gap-6 md:min-h-[500px] lg:min-h-[600px]">
-  
-      <!-- Card 1 -->
-      <div class="card-1 col-span-1 md:col-span-2  bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col">
-        <img src="./images/image-daniel.jpg" class="rounded-full w-24 h-24 mb-4" alt="Daniel Clifford">
-        <div class="flex flex-col">
-          <h3 class="text-lg font-semibold text-white mb-2">Daniel Clifford</h3>
+  <main>
+    <section class="bg-white py-8">
+      <div class="container mx-auto p-4 md:p-12 lg:p-20 grid grid-cols-1 md:grid-cols-4 gap-6 md:min-h-[500px] lg:min-h-[600px]">
+    
+        <!-- Card 1 -->
+        <div class="card-1 col-span-1 md:col-span-2  bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col">
+          <img src="./images/image-daniel.jpg" class="rounded-full w-24 h-24 mb-4" alt="Daniel Clifford">
+          <div class="flex flex-col">
+            <h3 class="text-lg font-semibold text-white mb-2">Daniel Clifford</h3>
+            <p class="text-sm text-white opacity-50 mb-4">Verified Graduate</p>
+            <b class="text-white mb-4">
+              I received a job offer mid-course, and the subjects I learned were current, if not more so,
+              in the company I joined. I honestly feel I got every penny’s worth.
+            </b>
+            <blockquote class="text-white text-sm opacity-70">
+              “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a
+              transition and have heard some people who had an amazing experience here. I signed up
+              for the free intro course and found it incredibly fun! I enrolled shortly thereafter.
+              The next 12 weeks was the best - and most grueling - time of my life. Since completing
+              the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”
+            </blockquote>
+          </div>
+        </div>
+      
+        <!-- Card 2 -->
+        <div class="card-2 bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col">
+          <img src="./images/image-jonathan.jpg" class="rounded-full w-24 h-24 mb-4" alt="Jonathan Walters">
+          <h3 class="text-lg font-semibold text-white mb-2">Jonathan Walters</h3>
           <p class="text-sm text-white opacity-50 mb-4">Verified Graduate</p>
           <b class="text-white mb-4">
-            I received a job offer mid-course, and the subjects I learned were current, if not more so,
-            in the company I joined. I honestly feel I got every penny’s worth.
+            The team was very supportive and kept me motivated.
           </b>
           <blockquote class="text-white text-sm opacity-70">
-            “ I was an EMT for many years before I joined the bootcamp. I’ve been looking to make a
-            transition and have heard some people who had an amazing experience here. I signed up
-            for the free intro course and found it incredibly fun! I enrolled shortly thereafter.
-            The next 12 weeks was the best - and most grueling - time of my life. Since completing
-            the course, I’ve successfully switched careers, working as a Software Engineer at a VR startup. ”
+            “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer
+            for a big company. This was one of the best investments I’ve made in myself. ”
+          </blockquote>
+        </div>
+      
+        <!-- Card 3 (row span 2) -->
+        <div class="card-3 row-span-2 bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col">
+          <img src="./images/image-kira.jpg" class="rounded-full w-24 h-24 mb-4" alt="Kira Whittle">
+          <h3 class="text-lg font-semibold text-white mb-2">Kira Whittle</h3>
+          <p class="text-sm opacity-50 mb-4">Verified Graduate</p>
+          <b class="mb-4">
+            Such a life-changing experience. Highly recommended!
+          </b>
+          <blockquote class="text-white text-sm opacity-70">
+            “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from
+            professionals who can help me learn programming step by step. I was encouraged to enroll by a former
+            student of theirs who can only say wonderful things about the program. The entire curriculum and staff
+            did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team
+            project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial
+            could ever have. In fact, I’ve often referred to it during interviews as an example of my development
+            experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers.
+            100% recommend! ”
+          </blockquote>
+        </div>
+      
+        <!-- Card 4 -->
+        <div class="card-4 bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col">
+          <img src="./images/image-jeanette.jpg" class="rounded-full w-24 h-24 mb-4" alt="Jeanette Harmon">
+          <h3 class="text-lg font-semibold mb-2">Jeanette Harmon</h3>
+          <p class="text-sm opacity-50 mb-4">Verified Graduate</p>
+          <b class=" mb-4">
+            An overall wonderful and rewarding experience.
+          </b>
+          <blockquote class="text-sm opacity-70">
+            “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living
+            while doing something I love. ”
+          </blockquote>
+        </div>
+      
+        <!-- Card 5 (spans 2 columns) -->
+        <div class="card-5 col-span-1 md:col-span-2 bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col">
+          <img src="./images/image-patrick.jpg" class="rounded-full w-24 h-24 mb-4" alt="Patrick Abrams">
+          <h3 class="text-lg font-semibold text-white mb-2">Patrick Abrams</h3>
+          <p class="text-sm text-white opacity-50 mb-4">Verified Graduate</p>
+          <b class="text-white mb-4">
+            Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and
+            learning from their experiences was easy.
+          </b>
+          <blockquote class="text-white text-sm opacity-70">
+            “ The staff seem genuinely concerned about my progress which I find really refreshing. The program
+            gave me the confidence necessary to be able to go out in the world and present myself as a capable
+            junior developer. The standard is above the rest. You will get the personal attention you need from
+            an incredible community of smart and amazing people. ”
           </blockquote>
         </div>
       </div>
-    
-      <!-- Card 2 -->
-      <div class="card-2 bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col">
-        <img src="./images/image-jonathan.jpg" class="rounded-full w-24 h-24 mb-4" alt="Jonathan Walters">
-        <h3 class="text-lg font-semibold text-white mb-2">Jonathan Walters</h3>
-        <p class="text-sm text-white opacity-50 mb-4">Verified Graduate</p>
-        <b class="text-white mb-4">
-          The team was very supportive and kept me motivated.
-        </b>
-        <blockquote class="text-white text-sm opacity-70">
-          “ I started as a total newbie with virtually no coding skills. I now work as a mobile engineer
-          for a big company. This was one of the best investments I’ve made in myself. ”
-        </blockquote>
-      </div>
-    
-      <!-- Card 3 (row span 2) -->
-      <div class="card-3 row-span-2 bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col">
-        <img src="./images/image-kira.jpg" class="rounded-full w-24 h-24 mb-4" alt="Kira Whittle">
-        <h3 class="text-lg font-semibold text-white mb-2">Kira Whittle</h3>
-        <p class="text-sm opacity-50 mb-4">Verified Graduate</p>
-        <b class="mb-4">
-          Such a life-changing experience. Highly recommended!
-        </b>
-        <blockquote class="text-white text-sm opacity-70">
-          “ Before joining the bootcamp, I’ve never written a line of code. I needed some structure from
-          professionals who can help me learn programming step by step. I was encouraged to enroll by a former
-          student of theirs who can only say wonderful things about the program. The entire curriculum and staff
-          did not disappoint. They were very hands-on and I never had to wait long for assistance. The agile team
-          project, in particular, was outstanding. It took my learning to the next level in a way that no tutorial
-          could ever have. In fact, I’ve often referred to it during interviews as an example of my development
-          experience. It certainly helped me land a job as a full-stack developer after receiving multiple offers.
-          100% recommend! ”
-        </blockquote>
-      </div>
-    
-      <!-- Card 4 -->
-      <div class="card-4 bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col">
-        <img src="./images/image-jeanette.jpg" class="rounded-full w-24 h-24 mb-4" alt="Jeanette Harmon">
-        <h3 class="text-lg font-semibold mb-2">Jeanette Harmon</h3>
-        <p class="text-sm opacity-50 mb-4">Verified Graduate</p>
-        <b class=" mb-4">
-          An overall wonderful and rewarding experience.
-        </b>
-        <blockquote class="text-sm opacity-70">
-          “ Thank you for the wonderful experience! I now have a job I really enjoy, and make a good living
-          while doing something I love. ”
-        </blockquote>
-      </div>
-    
-      <!-- Card 5 (spans 2 columns) -->
-      <div class="card-5 col-span-1 md:col-span-2 bg-gray-800 p-6 rounded-lg shadow-lg flex flex-col">
-        <img src="./images/image-patrick.jpg" class="rounded-full w-24 h-24 mb-4" alt="Patrick Abrams">
-        <h3 class="text-lg font-semibold text-white mb-2">Patrick Abrams</h3>
-        <p class="text-sm text-white opacity-50 mb-4">Verified Graduate</p>
-        <b class="text-white mb-4">
-          Awesome teaching support from TAs who did the bootcamp themselves. Getting guidance from them and
-          learning from their experiences was easy.
-        </b>
-        <blockquote class="text-white text-sm opacity-70">
-          “ The staff seem genuinely concerned about my progress which I find really refreshing. The program
-          gave me the confidence necessary to be able to go out in the world and present myself as a capable
-          junior developer. The standard is above the rest. You will get the personal attention you need from
-          an incredible community of smart and amazing people. ”
-        </blockquote>
-      </div>
-    </div>
-    
-  </section>
+      
+    </section>
+  </main>
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
