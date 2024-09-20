@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+    --Moderate-violet: hsl(263, 55%, 52%);
+    --Very-dark-grayish-blue: hsl(217, 19%, 35%);
+    --Very-dark-blackish-blue: hsl(219, 29%, 14%);
+    --White: hsl(0, 0%, 100%);
+    --Light-gray: hsl(0, 0%, 81%);
+    --Light-grayish-blue: hsl(210, 46%, 95%);
+    }
+    .card-1{
+        background-color: var(--Moderate-violet);
+        background-image: url(./images/bg-pattern-quotation.svg);
+        background-repeat: no-repeat;
+        background-position: top 20px right 20px;
+    }
+    .card-2{
+        background-color: var(--Very-dark-grayish-blue);
+    }
+    .card-3, .testimonial-5{
+        background-color: var(--White);
+    }
+    .card-4{
+        background-color: var(--White);
+    }
+    .card-5{
+        background-color: var(--Very-dark-blackish-blue);
+    }
+    blockquote{
+        color: var(--Light-grayish-blue);
+    }
+    .card-3 blockquote{
+        color: var(--Very-dark-blackish-blue);
+    }
+    .card-4 blockquote{
+        color: var(--Very-dark-blackish-blue);   
+    }
